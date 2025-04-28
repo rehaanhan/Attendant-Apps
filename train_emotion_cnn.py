@@ -65,5 +65,5 @@ model.fit(
 if not os.path.exists("model"):
     os.makedirs("model")
 
-model.save("model/emotion_model.h5")
+model.save("model/emotion_model.keras")
 print("Model saved!")

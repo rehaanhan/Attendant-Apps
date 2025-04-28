@@ -1,0 +1,11 @@
+CREATE TABLE faces (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nama TEXT NOT NULL,
+    encoding TEXT NOT NULL
+);
+
+CREATE TABLE absensi (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nama TEXT NOT NULL,
+    waktu TEXT NOT NULL
+);

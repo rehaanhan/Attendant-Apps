@@ -43,11 +43,14 @@ while True:
         cv2.rectangle(frame, (x, y), (x+width, y+height), (0, 255, 0), 2)
         cv2.putText(frame, emotion, (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255,255,0), 2)
 
+
     # Tampilkan hasil
     cv2.imshow('CNN Face and Emotion Detection', frame)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
+
+
 
 cap.release()
 cv2.destroyAllWindows()

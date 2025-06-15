@@ -6,6 +6,7 @@ CREATE TABLE faces (
 
 CREATE TABLE absensi (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    nama TEXT NOT NULL,
-    waktu TEXT NOT NULL
+    nama TEXT,
+    waktu TEXT,
+    mood TEXT
 );
